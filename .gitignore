@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 1. المجلدات الحزم والاعتماديات
+node_modules/
+
+# 2. ملفات البيئة والمتغيرات الحساسة (Supabase Keys)
+.env
+.env.local
+*.local
+
+# 3. مخرجات بناء المشروع والملفات المؤقتة
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.nitro/
+.tanstack/**
+
+# 4. ملفات بيئة Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# 5. ملفات النظام والبرامج المحررة (VS Code / WebStorm)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
